@@ -1,0 +1,840 @@
+
+*{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+/*    width: 100%;*/
+
+}
+body{
+    width: 100%;
+}
+
+slideshow{
+    clear: both;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    padding: 10px;
+    background-color:black;
+    color: red;
+/*    position:fixed;*/
+    margin: 0;
+    
+}
+
+.clearfix{
+    overflow: auto;
+}
+header{
+    width: 100%;
+}
+header a{
+    color: white;
+    box-sizing: border-box;
+    background: red;
+border-radius: 5px;
+        padding: 6px;
+    margin-left: 10px;
+    margin-top: 5px;  
+    float: left;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
+
+header a:hover{ 
+    color: red;
+    background: black;
+    border: green;
+}
+
+.contact{
+    float: right;
+}
+
+header li{
+    color:white;
+    display: inline-block;
+     padding: 8px;
+    margin: 5px ;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: right;
+/*    position: relative;*/
+    
+}
+
+/*banner section*/
+.navheader{
+    padding: 0px 10px;
+    font-size-adjust: auto;
+/*    position: relative;*/
+    width: auto;
+    margin: 0;    
+}
+
+.navheader h1{
+    float: left;
+/*    position: relative;*/
+}
+.navheader a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    
+}
+.navheader a:hover{
+    color: black;
+    text-decoration: none;
+}
+.navheader h1 span{
+    color:firebrick;
+    font-size: 80px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navheader p{
+    font-size: 0.5em;
+    color:darkgoldenrod;
+    line-height: 0;
+    float: right;
+/*    padding-left: 410px;*/
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#banner{
+    width:100%;
+    float: left;
+    justify-content: center;
+    clear: both;
+}
+
+.slider{
+    width: 100%;
+
+    padding: 50px 0px;
+    float: left;
+    background: url(../img/1.jpg) no-repeat;
+     
+    animation: slide 20s infinite;
+    animation-direction: reverse;
+    background-size:100% 750px;
+  box-shadow: 0 325px 200px 0 rgba(100, 95, 105, 0.5);
+
+}
+@keyframes slide{
+    25%{
+        background: url(../img/1.jpg) no-repeat;
+    
+    background-size: 100% 750px;
+/*    position: relative;*/
+
+    }
+    50%{
+        background: url(../img/2.jpg) no-repeat;
+
+    background-size: 100% 750px;
+/*    position: relative;*/
+
+    }
+    75%{
+        background: url(../img/3.jpg) no-repeat;
+        
+    background-size:  100% 750px;
+/*    position: relative;*/
+
+    }
+    100%{
+        background: url(../img/4.jpg) no-repeat;
+           
+    background-size: 100% 750px;
+/*    position: relative;*/
+
+    }
+}
+.menu{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 30px;
+   
+}
+
+.menu ul,li,a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    
+}
+.menu a{
+    padding: 0px 10px 0px 0px;
+}
+
+.menu a:hover{
+    color: darkred;
+}
+
+.banner-info{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color:white;
+    padding: 20px 30px;
+    font-size-adjust: auto;
+/*    position: relative;*/
+    margin: 0;
+    padding: 100px 0;
+}
+.banner-info h3{
+    font-size: 2.5em;
+}
+
+.banner-info span{
+    color: red;
+}
+.banner-info h4{
+    font-size: 1.5em;
+    background-color: darkgray;
+    padding: 5px;
+    width: 100%;
+}
+
+.banner-info p{
+    font-size: 1.25em;
+}
+
+.menu hr{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.introduction{
+    width 100%;
+    clear: both;
+}
+
+
+
+.introduction h1{
+
+	text-align: center;
+	text-decoration: underline;
+	font-family: cursive;
+
+/*  box-shadow: 0 325px 200px 0 rgba(200, 100, 255, 0.5);*/
+
+}
+
+
+
+.introduction p{
+
+
+text-align: center;
+font-size: 20px;
+margin-top: 10px;
+margin-left: 200px;
+margin-right: 200px;
+font-family: cursive;
+
+}
+
+
+
+
+/*room section*/
+room{
+    width: 100%;
+}
+.room-header {
+
+
+text-align: center;
+margin-bottom: 10px;
+
+
+}
+
+.room-header h1{
+   
+   font-family: cursive; 
+  box-shadow: 0 50px 100px 0 rgba(100, 100, 255, 0.9);
+
+
+    }
+.room-header p{
+
+font-size: 20px;
+text-align: center;
+color: maroon;
+font-family: cursive;
+
+
+}
+
+ .rooms .column {
+    margin-top: 30px;
+
+    margin-bottom: 40px; 
+    margin-left: 100px;
+  float: left;
+/*     display: inline-block;*/
+  width:500px;
+
+  padding: 0 10px;
+
+}
+.rooms .column:hover{
+
+
+ transform: scale(1.2);
+
+}
+
+.rooms .row {margin: 0;}
+
+
+.rooms .row:after {
+  display: table;
+  clear: both;
+}
+
+.rooms .card {
+  box-shadow: 0 60px 60px 0 rgba(50, 40, 50, 0.8);
+
+  padding: 16px;
+  text-align: center;
+  height: 450px;
+  background-color: #f1f1f1;
+}
+.rooms .card img{
+width: 100%;
+height: 300px;
+
+
+
+}
+
+.rooms .card h1{
+
+
+font-family: cursive;
+color:olive;
+
+}
+.rooms .card p{
+
+
+	font-style: italic;
+	color: olive;
+}
+
+
+
+
+
+
+
+/*Services*/
+.services{
+    clear: both;
+    width: 100%;
+}
+.services h2{
+    
+    text-align: center;
+ font-family: cursive; 
+}
+.row{
+    text-align: center;
+}
+.services .column{
+    margin-top: 30px;
+
+    margin-bottom: 40px; 
+margin-left: 14px;
+  float: left;
+/*    display: inline-block;*/
+  width: 10%;
+  padding: 0 10px;
+
+
+
+}
+
+.services .service-item{
+      box-shadow: 0 20px 200px 0 rgba(100, 10, 0, 0.7);
+ 
+  padding: 16px;
+    height: 100px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+
+}
+.services i{
+    font-size: 35px;
+    padding: 10px;
+
+}
+.services img{
+    width: 50px;
+    height: 40px;
+/*    padding:px;*/
+}
+.services p{
+    font-size: 15px;
+}
+
+.services h4{
+
+
+	font-style: italic;
+	color: #34495E;
+}
+
+
+ /*Review*/
+
+.review{
+clear: both;
+
+
+}
+.review h2{
+
+
+    text-align: center;
+ font-family: cursive; 
+}
+
+ .review .column {
+    margin-top: 30px;
+
+    margin-bottom: 40px; 
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+
+}
+.column:hover{
+
+
+ transform: scale(1.1);
+border-radius: 10px; 
+
+}
+
+.review .row {margin: 0 -5px;}
+
+
+.review .row:after {
+  display: table;
+  clear: both;
+}
+
+.review .card {
+  box-shadow: 0 4px 20px 0 rgba(10, 20, 200, 0.8);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.review .card img{
+
+height: 100px;
+width: 100px;
+border-radius: 50%;
+margin-top: 5px;
+
+
+}
+.review .card .checked {
+  color: orange;
+}
+.review .card p ,h3{
+
+font-style: italic;
+color: olive;
+
+}
+
+
+/*footer section*/
+
+
+
+
+footer{
+    clear: both;
+    border: 2px solid sans-serif;
+    border-radius: 10px;
+
+    
+
+
+}
+
+.footer-distributed{
+background-color:silver;  
+
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+
+    padding-top: 50px;
+
+padding-right: 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+
+
+
+}
+
+
+
+.footer-distributed .footer-left{
+    width: 32%;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+
+
+
+  box-shadow: 0 50px 50px 0 rgba(50, 40, 50, 0.8);
+
+
+}
+
+
+
+.footer-distributed h3{
+
+color: black;
+    font-family: cursive; 
+    font-size: 24px;
+text-align: center;
+    margin: 0;
+
+    text-decoration: underline;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  olive;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+.footer-distributed .footer-links a:hover{
+
+border: 2px solid black;
+border-radius: 10px;
+background-color: blue;
+color: white;
+}
+
+
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+.footer-distributed .footer-center{
+    width: 40%;
+ border: 2px solid gray;
+ border-radius: 20px;
+  box-shadow: 0 50px 50px 0 rgba(50, 40, 50, 0.8);
+margin-left: 20px;
+
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: olive;
+    vertical-align: middle;
+    margin:0;
+    font-style: italic;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  olive;
+    text-decoration: none;;
+font-style: italic;
+}
+.footer-distributed .footer-center iframe{
+
+	padding-left: 80px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 22%;
+    text-align: center;
+
+ border: 2px solid gray;
+ border-radius: 20px;
+  box-shadow: 0 50px 50px 0 rgba(50, 40, 50, 0.8);
+
+margin-left: 20px;
+}
+
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  black;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    font-size: 20px;
+    font-family: cursive; 
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 30px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+    border: 2px solid #33383b;
+    border-radius: 10px;
+
+
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+
+}
+.footer-distributed .footer-icons a:hover{
+
+background-color: blue;
+
+}
+
+
+
+
+/*Responsive*/
+@media screen and (max-width: 1150px) {
+    .introduction p{
+        padding: 10px 20px;
+        margin: 0;
+        
+    } 
+    room .row{
+        margin: 0;
+    }
+    
+     .rooms .column {
+    margin-top: 30px;
+
+    margin-bottom: 40px; 
+    margin-left: 10%;
+  float: left;
+/*     display: inline-block;*/
+  width:80%;
+
+  padding: 0 10px;
+
+}
+    
+    
+    
+    .services{
+        text-align: center;
+                width: 100%;
+
+    }
+    .services .column{
+        width:14.2%;    
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    room .row{
+        margin: 0;
+    }
+    
+     .rooms .column {
+    margin-top: 30px;
+
+    margin-bottom: 40px; 
+    margin-left: 10%;
+  float: left;
+/*     display: inline-block;*/
+  width:80%;
+
+  padding: 0 10px;
+
+}
+    .services{
+        text-align: center;
+        width: 100%;
+/*        margin: 10%;*/
+    }
+/*
+    .services .row{
+        padding: 10%;
+    }
+*/
+    .services .column{
+        width:20%;    
+/*        float: none;*/
+/*        display: inline-block;*/
+    }
+
+    
+    .footer-distributed .footer-center{
+        width: 100%;
+        margin-bottom: 25px;
+       
+
+    }
+    
+    .footer-distributed .footer-right{
+        width: 100%;
+                margin-bottom: 20px;
+     
+
+
+    }
+    .footer-distributed .footer-left{
+        width: 100%;
+                margin-bottom: 20px;
+     
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navheader{
+    width: auto;
+        overflow: none;
+}
+
+.navheader h1{
+    float: left;
+}
+.navheader a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    
+}
+.navheader a:hover{
+    color: black;
+    text-decoration: none;
+}
+.navheader h1 span{
+    color:firebrick;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.navheader p{
+    font-size: 20px;
+    color:darkgoldenrod;
+    line-height: 0;
+    float: right;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+    
+    
+    
+    
+    room .row{
+        margin: 0;
+    }
+    
+     .rooms .column {
+    margin-top: 30px;
+
+    margin-bottom: 40px; 
+    margin-left: 10%;
+  float: left;
+  width:80%;
+
+  padding: 0 10px;
+
+}
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    body{
+        width: 500px;
+
+    }
+}
+
+
